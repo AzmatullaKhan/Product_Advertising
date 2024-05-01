@@ -1,0 +1,34 @@
+.main-background{
+  height:900px;
+  width: 1500px;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product{
+  height:700px;
+  width:535px;
+  position: absolute;
+  left:25px;
+  animation: product-animation 1.2s ease-out 0s;
+}
+.product-container{
+  position: absolute;
+  box-sizing: border-box;
+  height:690px;
+  width:560px;
+  border:4px solid #fff;
+  padding-left: 25px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-radius:6px;
+  opacity: 1;
+}
+@keyframes product-animation{
+  0%{left:-300px;opacity: 0;}
+  100%{left:25px;opacity: 1;}
+}
