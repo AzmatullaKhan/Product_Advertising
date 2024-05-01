@@ -1,10 +1,12 @@
+*{
+  box-sizing: border-box;
+}
 .main-background{
-  height:2500px;
+  height:360vh;
   width: 1500px;
   background-color: #000;
   box-sizing: border-box;
   color: #fff;
-  padding: 40px 0px
   /* align-items: center; */
 }
 .product-container-one{
@@ -27,35 +29,102 @@
   0%{opacity: 0;left: -250px;}
   100%{opacity: 1;left:-150px}
 }
-.product{
+.product-img1{
   height:700px;
   width:535px;
   position: absolute;
   left:25px;
-  animation: product-animation 1.2s ease-out 0s;
+  animation: product-img1-animation 1.2s ease-out 0s;
 }
-@keyframes product-animation{
+@keyframes product-img1-animation{
   0%{left:-300px;opacity: 0;}
   100%{left:25px;opacity: 1;}
 }
 .product-name{
   position: relative;
   top:300px;
-  left:400px;
+  left:550px;
   animation: product-name-animation 1.2s ease-out 0s;
 }
 @keyframes product-name-animation {
   0%{left:-160px;opacity: 0.25;}
   80%{opacity: 0.65;}
-  100%{left:400px;opacity: 1;}
+  100%{left:550px;opacity: 1;}
 }
 .product-container-two{
   margin:40px 0px;
   position: relative;
   box-sizing: border-box;
-  height:700px;
+  height:600px;
   width:1200px;
-  border:1px solid #fff;
+  border:4px solid #fff;
+  border-top:none;
+  border-right: none;
+  border-bottom: none;
+  border-radius:6px;
+}
+.product-img2{
+  height:600px;
+  width:435px;
+  position: absolute;
+  left:25px;
+}
+section{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.product-two-description{
+  box-sizing:border-box ;
+  padding: 22px;
+  width:700px;
+  height:400px;
+  position: relative;
+  left:480px;
+  top:140px
+}
+
+.product-container-three{
+  margin:40px 0px;
+  position: relative;
+  box-sizing: border-box;
+  height:600px;
+  width:1200px;
+  border-radius:6px;
+}
+p{
+  line-height: 1.3;
+}
+.product-three-description{
+  box-sizing:border-box ;
+  padding: 22px;
+  min-width:600px;
+  height:600px;
+  position: relative;
+  margin:10px 100px;
+  padding-left: 120px;
+}
+.product-container-four{
+  margin:40px 0px;
+  position: relative;
+  box-sizing: border-box;
+  height:400px;
+  width:570px;
+  padding-left: 25px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
   border-radius:6px;
   opacity: 1;
+}
+.product-four-description{
+  box-sizing:border-box ;
+  padding: 22px;
+  min-width:500px;
+  height:300px;
+  position: relative;
+  margin:10px 50px;
+  padding-left: 120px;
 }
