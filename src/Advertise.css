@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .main-background{
-  height:360vh;
+  height:3250px;
   width: 1500px;
   background-color: #000;
   box-sizing: border-box;
@@ -72,9 +72,10 @@
 section{
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 900px;
   box-sizing: border-box;
   margin-bottom: 30px;
+  /* border:1px solid #fff; */
 }
 .product-two-description{
   box-sizing:border-box ;
@@ -127,4 +128,23 @@ p{
   position: relative;
   margin:10px 50px;
   padding-left: 120px;
+}
+footer{
+  position: sticky;
+  top:0px;
+  left:0px;
+}
+footer{
+  height:100px;
+  width:1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  margin:0px 10px;
+}
+footer p a{
+  text-decoration: none;
+  color: #fff;
 }

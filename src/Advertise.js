@@ -20,7 +20,7 @@ function App() {
           <h1 className='product-name'>Iphone 12 pro</h1>
         </div>
       </section>
-      <section data-aos="fade-left" data-aos-offset="200" style={{height:"80vh"}}>
+      <section data-aos="fade-left" data-aos-offset="200" style={{height:"700px"}}>
         <div className='product-container-two' data-aos="fade-left" data-aos-offset="200">
           <img src={require("./images/productTop.png")} className='product-img2' alt='product'/>
           <div className='product-two-description' data-aos="fade-left" data-aos-offset="300">
@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section data-aos="fade-right" data-aos-offset="200" style={{height:"80vh",display:"flex"}}>
+      <section data-aos="fade-right" data-aos-offset="200" style={{height:"700px",display:"flex"}}>
           <div className='product-three-description'>
               <h1 style={{textDecoration:"underline"}}>Key Specs</h1>
               <p>Front-Facing Camera: 12 megapixels</p>
@@ -49,7 +49,7 @@ function App() {
           <img src={require("./images/productCamera.png")} alt="Cameras"/>
         </div>
       </section>
-      <section data-aos="fade-left" data-aos-offset="200" style={{height:"80vh", display:"flex", justifyContent:"center"}}>
+      <section data-aos="fade-left" data-aos-offset="200" style={{height:"700px", display:"flex", justifyContent:"center"}}>
         <div className='product-container-four' data-aos="fade-left">
           <img src={require("./images/productColors.png")} alt="colors" style={{height:"400px", width:"400px"}}/>
         </div>
@@ -62,6 +62,10 @@ function App() {
 
         </div>
       </section>
+      <hr></hr>
+      <footer data-aos="flip-up" data-aos-offset="20" data-aos-duration="1000">
+      <p><a href="https://github.com/AzmatullaKhan">Copyright © 2024 Azmatulla Khan ®</a></p>
+      </footer>
     </div>
   );
 }
