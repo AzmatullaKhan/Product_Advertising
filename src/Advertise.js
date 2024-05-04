@@ -64,7 +64,7 @@ function App() {
       </section>
       <hr></hr>
       <footer data-aos="flip-up" data-aos-offset="20" data-aos-duration="1000">
-      <p><a href="https://github.com/AzmatullaKhan">Copyright © 2024 Azmatulla Khan ®</a></p>
+      <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
       </footer>
     </div>
   );
